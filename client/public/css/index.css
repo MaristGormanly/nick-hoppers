@@ -1,0 +1,14 @@
+.splash {
+    background: #D1DEEA url("/images/hoppers-background.jpg") no-repeat top center;
+	background-size: auto 100%;
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+#hoppers {
+	position:absolute;
+	height:150px; 
+	width: 160px;
+	top:85%;
+	left:72%;
+}
