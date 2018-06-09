@@ -9,7 +9,7 @@
 	position:absolute;
 	height:200px; 
 	width: 200;
-	top:85%;
+	top:78%;
 	left:440px;
 }
 #question1 {
@@ -23,14 +23,14 @@
  position:absolute;
  top:40%;
  left:70%;
- display:none;
+ display:block;
  }
  #question3{
  color:green;
  position:absolute;
  top:60%;
  left:70%;
- display:none;
+ display:block;
 }
  
     
