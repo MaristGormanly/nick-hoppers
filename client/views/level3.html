@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" type="image/png" href="./data/images/favicon.png" />
+	    <link rel="stylesheet" type="text/css" href="./css/index.css" media="all" />
+		<script src="./js/index.js"></script>		
+		<meta charset="UTF-8">
+		<title>Hoppers</title>
+	</head>
+	<body class="splash">
+	    <div class="container">
+	        <h1>Hoppers Final level</h1>
+	        
+			<span id="question1">
+			<h3> question#1 whitch of the following is a layer of the rainforest?</h3>
+			<form>
+			  <input type="radio" name="q1" value= "emergent layer" onclick="showMessage('try again')">emergent layer  <br>
+			  <input type="radio" name="q1" value="forest floor" onclick="showMessage('try again')">forest floor <br>
+			  <input type="radio" name="q1" value="all of the above" onclick="showMessage('nice work'); moveFrog('60%', '100px')">all of the above 
+			</form>
+			</span>
+			
+			<span id="question2">
+			<h3> question#2 what are red eyed tree frogs most known for?</h3>
+			<form>
+			  <input type="radio" name="q2" value= "how they can leap" onclick="showMessage('great job');moveFrog( '45%', '440px')" > how they can leap <br>
+			  <input type="radio" name="q2" value="how they walk weird" onclick="showMessage('try again')">how they walk weird <br>
+			  <input type="radio" name="q2" value="all of the above" onclick="showMessage('try again')">all of the above <br/>
+			</form>
+			</span>
+			
+			<span id="question3">
+			<h3> question#3 when a red eyed tree frog closes its eye what does it look like?</h3>
+			<form>
+			  <input type="radio" name="q3" value= "fire" onclick="showMessage('try again')" >fire <br>
+			  <input type="radio" name="q3" value="lines" onclick="showMessage('try again')"> lines<br>
+			  <input type="radio" name="q3" value="a leaf" onclick="showMessage('amazing work');moveFrog('30%', '100px');document.getElementById('nextLevel').style.display='block'"> a leaf<br/>
+			</form>
+			</span>
+			<span id="nextLevel" >YOU WON!!!!!!! <a href="/">play again</a></span>
+			
+			
+			
+			
+			
+			
+			
+			
+			<h3 id="question3"></h3>
+		    
+			<img id="hoppers" src="/images/hopper.gif">
+	    </div>
+	</body>
+</html>

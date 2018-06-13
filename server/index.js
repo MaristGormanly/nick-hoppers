@@ -11,4 +11,12 @@ app.get('/', function (req, res) {
   res.sendFile('index.html', {root: './client/views' })
 })
 
-app.listen(1337, () => console.log('OregonTrail listening on port 1337!'));
+app.get('/l2', function (req, res) {
+  res.sendFile('level2.html', {root: './client/views' })
+})
+
+app.get('/l3', function (req, res) {
+  res.sendFile('level3.html', {root: './client/views' })
+})
+
+app.listen(1337, () => console.log('Hoppers listening on port 1337!'));
