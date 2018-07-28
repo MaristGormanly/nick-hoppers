@@ -19,4 +19,8 @@ app.get('/l3', function (req, res) {
   res.sendFile('level3.html', {root: './client/views' })
 })
 
+app.get('/l4', function (req, res) {
+  res.sendFile('level4.html', {root: './client/views' })
+})
+
 app.listen(1337, () => console.log('Hoppers listening on port 1337!'));
