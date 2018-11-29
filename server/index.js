@@ -26,5 +26,16 @@ app.get('/l4', function (req, res) {
 app.get('/l5', function (req, res) {
   res.sendFile('level5.html', {root: './client/views' })
 })
+app.get('/l6', function (req, res) {
+  res.sendFile('level6.html', {root: './client/views' })
+})
+
+app.get('/l7', function (req, res) {
+  res.sendFile('level7.html', {root: './client/views' })
+})
+
+app.get('/l8', function (req, res) {
+  res.sendFile('level8.html', {root: './client/views' })
+})
 
 app.listen(1337, () => console.log('Hoppers listening on port 1337!'));
